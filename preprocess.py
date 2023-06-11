@@ -1,7 +1,10 @@
 import spacy
 from pathlib import Path
 import typer
+import locale
 from spacy.tokens import DocBin
+locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
+
 
 # Supported annotation labels
 # TODO: Change it as required
